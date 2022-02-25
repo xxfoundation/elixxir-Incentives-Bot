@@ -2,6 +2,8 @@ package cmd
 
 import (
 	"fmt"
+	"git.xx.network/elixxir/incentives-bot/incentives"
+	"git.xx.network/elixxir/incentives-bot/storage"
 	"github.com/golang/protobuf/proto"
 	"github.com/skip2/go-qrcode"
 	"github.com/spf13/cobra"
@@ -14,8 +16,6 @@ import (
 	"gitlab.com/elixxir/primitives/fact"
 	"gitlab.com/xx_network/primitives/id"
 	"gitlab.com/xx_network/primitives/utils"
-	"incentives/incentives"
-	"incentives/storage"
 	"io/ioutil"
 	"net"
 	"os"

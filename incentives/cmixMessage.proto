@@ -1,5 +1,5 @@
 syntax = "proto3";
-option go_package = "gitlab.com/elixxir/incentives/incentives";
+option go_package = "gitlab.com/elixxir/incentives-bot/incentives";
 
 package incentives;
 
